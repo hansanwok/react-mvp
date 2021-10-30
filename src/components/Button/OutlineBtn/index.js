@@ -1,6 +1,8 @@
 import React from 'react'
 import classNames from 'classnames'
-import { Button } from 'reactstrap'
+import { Button } from 'semantic-ui-react'
+
+import './styles.scss'
 
 const OutlineBtn = ({ text, className, ...props }) => {
   return (

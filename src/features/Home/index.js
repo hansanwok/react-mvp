@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet'
 // import { useHistory } from 'react-router-dom'
 import { Button } from 'semantic-ui-react'
 
+import './styles.scss'
+
 function Home() {
   // const history = useHistory()
   const { t } = useTranslation()

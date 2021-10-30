@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet'
 // import { useHistory } from 'react-router-dom'
 
+import './styles.scss'
+
 function PickFurniture() {
   // const history = useHistory()
   const { t } = useTranslation()

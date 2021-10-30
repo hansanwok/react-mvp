@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next'
 import { resetState, getHomeInfo } from 'redux/actions/Home'
 import { getListStyle } from 'redux/actions/Style'
 
+import './styles.scss'
+
 const languages = [
   { value: 'vi', label: 'VN' },
   { value: 'en', label: 'EN' },

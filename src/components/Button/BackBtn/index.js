@@ -3,6 +3,8 @@ import { useHistory } from 'react-router-dom'
 
 import Back from 'assets/images/back.png'
 
+import './styles.scss'
+
 const BackBtn = () => {
   const history = useHistory()
 

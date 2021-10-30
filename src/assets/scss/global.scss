@@ -14,28 +14,12 @@ div {
   box-sizing: border-box;
 }
 
-.my-btn {
-  font-weight: 600;
-  font-size: 18px;
-  color: $white;
-  background-color: $green;
-  border-color: $green;
-  border-radius: 8px;
-
-  &:hover {
-    color: $green;
-    background-color: $white;
-    border-color: $green;
-  }
-}
-
 .stick {
   position: sticky;
   position: -webkit-sticky;
   /* for Safari */
   bottom: 24px;
 }
-
 
 #root {
   white-space: pre-line;
