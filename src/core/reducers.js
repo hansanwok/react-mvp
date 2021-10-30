@@ -1,14 +1,12 @@
 import { combineReducers } from 'redux'
 
 import Home from 'redux/reducers/Home'
-import Style from 'redux/reducers/Style'
 import Order from 'redux/reducers/Order'
 
 import { RESET_STATE } from 'redux/types/Home'
 
 const appReducer = combineReducers({
   Home,
-  Style,
   Order,
 })
 

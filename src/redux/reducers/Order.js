@@ -8,7 +8,6 @@ import {
   CHECKOUT_FAIL,
 } from '../types/Order'
 
-import { GET_LIST_BUILDING_TYPE_SUCCESS } from '../types/Style'
 
 const INIT_STATE = {
   listProduct: [],
@@ -21,7 +20,6 @@ const INIT_STATE = {
       length: 0,
     },
     laborCost: 0,
-    projectPeriod: '',
     buildingType: {},
   },
   loading: false,
@@ -41,18 +39,6 @@ const Order = (state = INIT_STATE, action) => {
 
     case SET_IMAGE_BASE64:
       return { ...state, imgBase64: payload.imgBase64 }
-
-    case GET_LIST_BUILDING_TYPE_SUCCESS: {
-      const { data } = payload
-      if (!state.advanceProduct.buildingType.id) {
-        return {
-          ...state,
-          advanceProduct: { ...state.advanceProduct, buildingType: data[0] },
-        }
-      }
-
-      return state
-    }
 
     case SET_ADVANCE_PRODUCT:
       return {

@@ -16,7 +16,7 @@ const middlewares = [sagaMiddleware]
 const persistConfig = {
   key: 'root',
   storage: storage,
-  whitelist: ['Home', 'Style']
+  whitelist: ['Home']
 }
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)
