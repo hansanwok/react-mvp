@@ -1,0 +1,105 @@
+{
+  "common": {
+    "btn": {
+      "continue": "Tiếp tục",
+      "next": "Tiếp theo"
+    }
+  },
+  "features": {
+    "meta_title": {
+      "home": "Chào mừng tới Nook!",
+      "select_types": "Chọn phong cách của bạn",
+      "quote": "Báo giá sản phẩm",
+      "room_size": "Chọn kích thước phòng tắm của bạn",
+      "room_kind": "Chọn cách bố trí phòng tắm của bạn",
+      "user_form": "Nhập thông tin cá nhân",
+      "order_success": "Báo giá phòng tắm"
+    },
+    "home": {
+      "title": "Chọn Mẫu Thiết Kế",
+      "title_light": "Phòng Tắm Phổ Biến",
+      "description": " Lựa chọn mẫu thiết kế bạn thích để nhận báo giá cải tạo trọn gói ước tính từ Nook.",
+      "est_price": "Giá vật liệu từ "
+    },
+    "pick_furniture": {
+      "title": "Chọn",
+      "title_light": "nội thất",
+      "est_price": "Giá thi công, vật liệu từ",
+      "opt_product": "Sản phẩm tuỳ chọn",
+      "none": "Không có"
+    },
+    "period": {
+      "title": "bắt đầu thi công?",
+      "title_light": "Khi nào bạn muốn",
+      "options": {
+        "asap": "Càng sớm càng tốt",
+        "short": "2-3 tháng",
+        "mid": "4-6 tháng",
+        "far": "6-12 tháng",
+        "unknown": "Tôi chưa biết"
+      }
+    },
+    "room_size": {
+      "title": "của bạn là bao nhiêu?",
+      "title_light": "Kích thước phòng tắm",
+      "description": "Nook dựa vào kích thước của bạn cung cấp để tính chi phí vật liệu và nhân công.",
+      "dimension": {
+        "width": "Nhập chiều dài (mét)",
+        "length": "Nhập chiều rộng (mét)",
+        "height": "Nhập chiều cao (mét)",
+        "unknown": "Tôi chưa biết"
+      },
+      "size": {
+        "small": "Nhỏ",
+        "medium": "Trung",
+        "large": "Lớn"
+      }
+    },
+    "room_kind": {
+      "title": "Bước 3/3 Chọn cách bố trí phòng tắm của bạn"
+    },
+    "user_form": {
+      "title": "nhận báo giá trọn gói",
+      "title_light": "Nhập thông tin để",
+      "secure_text": "Thông tin được bảo mật",
+      "label": {
+        "name": "Tên",
+        "phone": "Số điện thoại",
+        "address": "Địa chỉ",
+        "building": "Loại căn hộ ?",
+        "note": "Ghi chú (không bắt buộc)",
+        "district": "Chọn Quận"
+      },
+      "placeholder": {
+        "name": "Họ và Tên",
+        "phone": "Số Điện Thoại",
+        "address": "Địa Chỉ Dự Án",
+        "note": "Ghi Chú"
+      },
+      "error": {
+        "phone": "Vui lòng nhập số điện thoại hợp lệ"
+      },
+      "submit": "Báo giá của tôi!"
+    },
+    "order_success": {
+      "title": "Báo giá dự án cho",
+      "est_text": "Chi phí ước tính của bạn là",
+      "description": "Hẹn lịch tư vấn với Nook để chốt báo giá.",
+      "est_title": "Báo giá ước tính",
+      "total": "Tổng chi phí",
+      "labor": "Chi phí vật liệu & nhân công",
+      "furniture": "Chi phí nội thất",
+      "time": "Thời gian thi công",
+      "day": "{{count}} ngày",
+      "slogan_1": "Giá cả trọn gói",
+      "slogan_2": "Thiết kế chuyên nghiệp",
+      "slogan_3": "Chất lượng đảm bảo",
+      "btn": {
+        "more": "Tìm hiểu thêm",
+        "change": "Chọn phong cách khác",
+        "later": "Hẹn lịch tư vấn miễn phí"
+      }
+    }
+  },
+  "components": {}
+}

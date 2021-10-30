@@ -1,0 +1,8 @@
+.select-language-container {
+  @include flex(row, center, flex-end);
+
+  .lang-btn.btn.btn-link {
+    color: $silver;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "common": {
+    "btn": {
+      "continue": "Continue",
+      "next": "Next"
+    }
+  },
+  "features": {
+    "meta_title": {
+      "home": "Welcome to Nook!",
+      "select_types": "Select Your Theme",
+      "quote": "Product Quote",
+      "room_size": "Select Your Bathroom Size",
+      "room_kind": "Select Your Bathroom Layout",
+      "user_form": "Tell us how to contact you!",
+      "order_success": "Preliminary Quote"
+    },
+    "home": {
+      "title": "Choose",
+      "title_light": "Bathroom Design",
+      "description": "Select your favorite bathroom design to get renovation estimate",
+      "est_price": "Start material price"
+    },
+    "pick_furniture": {
+      "title": "Choose",
+      "title_light": "Furniture",
+      "est_price": "Material, labor, furniture estimate starting at",
+      "opt_product": "Optional furniture",
+      "none": "None"
+    },
+    "period": {
+      "title": "to start construction?",
+      "title_light": "When would you like",
+      "options": {
+        "asap": "As soon as possible",
+        "short": "2-3 months",
+        "mid": "4-6 months",
+        "far": "6-12 months",
+        "unknown": "I am not sure yet"
+      }
+    },
+    "room_size": {
+      "title": "bathroom dimensions?",
+      "title_light": "What are your",
+      "description": "Nook based on the size you provide to calculate labor and material costs.",
+      "dimension": {
+        "width": "Insert length (meter)",
+        "length": "Insert width (meter)",
+        "height": "Insert height (meter)",
+        "unknown": "I am not sure yet"
+      },
+      "size": {
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large"
+      }
+    },
+    "room_kind": {
+      "title": "Step 3/3: Select Your Bathroom Layout"
+    },
+    "user_form": {
+      "title": "get your estimate",
+      "title_light": "Insert information to",
+      "secure_text": "Your info is secure",
+      "label": {
+        "name": "First and Last Name",
+        "phone": "Phone Number",
+        "address": "Project address",
+        "note": "Note"
+      },
+      "placeholder": {
+        "name": "Enter your name",
+        "phone": "Enter your phone",
+        "address": "Enter your address",
+        "note": "Note"
+      },
+      "error": {
+        "phone": "Please input a valid phone number"
+      },
+      "submit": "See My Quote!"
+    },
+    "order_success": {
+      "title": "Estimate Quote for",
+      "est_text": "Your estimate quote is",
+      "description": "Book a free consultation with Nook to finalize the price.",
+      "est_title": "Estimate Quote",
+      "total": "Total cost",
+      "labor": "Material & labor cost",
+      "furniture": "Furniture cost",
+      "time": "Construction period",
+      "day": "{{count}} days",
+      "slogan_1": "All - Exclusive Price",
+      "slogan_2": "Professional design",
+      "slogan_3": "High quality",
+      "btn": {
+        "more": "Learn More",
+        "change": "Choose another design",
+        "later": "Book a Free Consultation"
+      }
+    }
+  },
+  "components": {}
+}

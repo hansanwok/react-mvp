@@ -1,0 +1,49 @@
+/**Size**/
+$normal-font: 4rem;
+
+/**Color**/
+$green: #33D65F;
+$silver: #C4C4C4;
+$zambezi: #5C5C5C;
+$link_water: #C3CFD9;
+$charcoal: #484848;
+$gray: #bfbfbf;
+$light-grey: #D7D7D7;
+$gray-1: #B6B6B6;
+$gray-2: #DADADA;
+$light-gray: #D0CECE;
+$white: #fff;
+$white-smoke: #F2F2F2;
+$black: #000;
+$black-1: #5B4F68;
+$black-2: #474544;
+$error-color: #EA4335;
+$success-color: #66bb6a;
+$warning-color: #ffe082;
+$greyish-brown: #4f4f4f;
+
+/**Display**/
+$flex: flex !default;
+
+/**Path*/
+$roboto-font-path: '~materialize-css/fonts/roboto/' !default;
+
+/**fonts**/
+$roboto-font: Roboto,
+'Open Sans',
+sans-serif;
+$opensan-font: 'Nunito Sans',
+sans-serif;
+
+$proxima-font: proxima-nova,
+Avenir,
+Roboto,
+Helvetica,
+Arial,
+sans-serif;
+
+$font-weight-400: 400 !default;
+$font-weight-500: 500 !default;
+$font-weight-600: 600 !default;
+$font-weight-700: 700 !default;
+$font-weight-bold: bold !default;
