@@ -171,7 +171,7 @@ $medium-screen: 1280px;
   }
 
   @if $screen == mobile {
-    @media only screen and (max-width: $min-tablet-width - 1) and (min-width: $max-middle-mobile-width + 1) {
+    @media only screen and (max-width: $min-tablet-width - 1) {
       @content;
     }
   }

@@ -2,4 +2,12 @@
 
 .home-page-container {
   background-color: $green;
+
+  @include responsive(mobile) {
+    background-color: red;
+  }
+
+  @include responsive(tablet) {
+    background-color: yellow;
+  }
 }
